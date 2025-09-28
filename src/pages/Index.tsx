@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Products from "@/components/Products";
 import Contacts from "@/components/Contacts";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <Contacts />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
